@@ -45,7 +45,7 @@ const json = point.toJSON();
 
 // Create a Point3D object from a JSON string
 const newPoint = Point3D.fromJSON(json);
-
+```
 
 # API
 
