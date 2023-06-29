@@ -72,6 +72,24 @@ class Point3D {
         return false;
       }
     }
+
+    /**
+     * Relocate the point by providing new coordinates.
+     * @param {number} newX - The new x-coordinate.
+     * @param {number} newY - The new y-coordinate.
+     * @param {number} newZ - The new z-coordinate.
+     * @returns {boolean} Returns true if the relocation is successful, false otherwise.
+     */
+    relocate(newX, newY, newZ) {
+        try {
+            this.#x = parseFloat(newX);
+            this.#y = parseFloat(newY);
+            this.#z = parseFLoat(newZ);
+            return true;
+        } catch {
+            return false;
+        }
+    }
   
     /**
      * Calculate the distance between this point and another 3D point.
