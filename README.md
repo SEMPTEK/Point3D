@@ -77,7 +77,7 @@ Moves the point by adding relative coordinates.
 
 **Returns:** `boolean` - Returns `true` if the move is successful, `false` otherwise.
 
-### 'relocate(newX, newY, newZ)'
+### `relocate(newX, newY, newZ)`
 
 Relocates the point to provided coordinates.
 
