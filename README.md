@@ -47,27 +47,27 @@ const json = point.toJSON();
 const newPoint = Point3D.fromJSON(json);
 
 
-## API
+# API
 
-### `getX()`
+## `getX()`
 
 Returns the x-coordinate of the point.
 
 **Returns:** `number` - The x-coordinate.
 
-### `getY()`
+## `getY()`
 
 Returns the y-coordinate of the point.
 
 **Returns:** `number` - The y-coordinate.
 
-### `getZ()`
+## `getZ()`
 
 Returns the z-coordinate of the point.
 
 **Returns:** `number` - The z-coordinate.
 
-### `move(relativeX, relativeY, relativeZ)`
+## `move(relativeX, relativeY, relativeZ)`
 
 Moves the point by adding relative coordinates.
 
@@ -77,7 +77,7 @@ Moves the point by adding relative coordinates.
 
 **Returns:** `boolean` - Returns `true` if the move is successful, `false` otherwise.
 
-### `distanceFromPoint(otherPoint3D)`
+## `distanceFromPoint(otherPoint3D)`
 
 Calculates the distance between this point and another 3D point.
 
@@ -85,13 +85,13 @@ Calculates the distance between this point and another 3D point.
 
 **Returns:** `number|null` - Returns the distance between the points if the `otherPoint3D` is valid, `null` otherwise.
 
-### `toJSON()`
+## `toJSON()`
 
 Converts the `Point3D` object to a JSON string.
 
 **Returns:** `string` - The JSON string representing the `Point3D` object.
 
-### `static fromJSON(data)`
+## `static fromJSON(data)`
 
 Creates a `Point3D` object from a JSON string.
 
@@ -99,7 +99,7 @@ Creates a `Point3D` object from a JSON string.
 
 **Returns:** `Point3D|null` - The created `Point3D` object if the `data` is valid, `null` otherwise.
 
-## License
+# License
 
 This code is released under the [MIT License](LICENSE).
 ```
