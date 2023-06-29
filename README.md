@@ -1,4 +1,4 @@
-```
+
 # Point3D Class
 
 The `Point3D` class represents a point in three-dimensional space. It stores the x, y, and z coordinates of the point and provides methods for manipulating and accessing these coordinates.
@@ -45,7 +45,7 @@ const json = point.toJSON();
 
 // Create a Point3D object from a JSON string
 const newPoint = Point3D.fromJSON(json);
-```
+
 
 ## API
 
