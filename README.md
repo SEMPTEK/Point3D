@@ -77,6 +77,16 @@ Moves the point by adding relative coordinates.
 
 **Returns:** `boolean` - Returns `true` if the move is successful, `false` otherwise.
 
+### 'relocate(newX, newY, newZ)'
+
+Relocates the point to provided coordinates.
+
+- `newX` (`number`): The new x-coordinate.
+- `newY` (`number`): The new y-coordinate.
+- `newZ` (`number`): The new z-coordinate.
+
+**Returns:** `boolean` - Returns `true` if relocation is successful, `false` otherwise.
+
 ### `distanceFromPoint(otherPoint3D)`
 
 Calculates the distance between this point and another 3D point.
