@@ -64,16 +64,16 @@ Create a new Point2D object with the specified coordinates.
 - `x` (number): The x-coordinate.
 - `y` (number): The y-coordinate.
 
-
+---
 
 # Point3D Class
 
 Represents a 3D point with x, y, and z coordinates.
 
 ## Table of Contents
-- [Methods](#methods)
-- [Static Methods](#static-methods)
-- [Constructor](#constructor)
+- [Methods](#methods-1)
+- [Static Methods](#static-methods-1)
+- [Constructor](#constructor-1)
 
 ## Methods
 
@@ -133,11 +133,16 @@ Create a Point3D object from a JSON string.
 
 ## Constructor
 
-
-
 ### `Point3D(x, y, z)`
 Create a new Point3D object with the specified coordinates.
 
 - `x` (number): The x-coordinate.
 - `y` (number): The y-coordinate.
 - `z` (number): The z-coordinate.
+
+---
+
+## License
+
+The MIT License (MIT)
+
